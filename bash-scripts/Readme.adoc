@@ -1,0 +1,8 @@
+== Run profile
+* Run explainshell docker command
+
+== BASH IDE Configuration
+```bash
+# Run explainshell, add url to vscode config
+docker container run --name explainshell --restart always -p 7000:5000 -d ghcr.io/idank/idank/explainshell:master 
+```
